@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="icon" href="web-assets/images/favicon.png" sizes="35x35" type="image/png">
 
-    <!-- Styles -->
+
     <link rel="stylesheet" href="web-assets/css/all.min.css">
     <link rel="stylesheet" href="web-assets/css/flaticon.css">
     <link rel="stylesheet" href="web-assets/css/animate.min.css">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="web-assets/css/responsive.css">
     <link rel="stylesheet" href="web-assets/css/color.css">
 
-    <!-- Styles -->
+
     @livewireStyles()
 </head>
 

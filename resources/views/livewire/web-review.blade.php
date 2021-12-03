@@ -129,5 +129,5 @@
                 </div>
             </div>
         </div>
-    </div><!-- Testimonials & Stories Wrap -->
+    </div>
 </div>

@@ -18,7 +18,7 @@
     <div class="lg-mn">
         <div class="logo">
             <h1 class="mb-0 d-block">
-                <a href="index.html" title="Home">
+                <a href="{{ route('home') }}" title="Home">
                     <img src="web-assets/images/logo.png" alt="Logo">
                 </a>
             </h1>
@@ -33,15 +33,16 @@
     <div class="rsnp-mnu">
         <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
         <ul class="mb-0 list-unstyled w-100">
-            <li><a href="index.html" title="">Home</a></li>
+            <li><a href="{{ route('home') }}" title="">Home</a></li>
             <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Services</a>
                 <ul class="mb-0 list-unstyled">
-                    <li><a href="services.html" title="">Services</a></li>
-                    <li><a href="service-detail.html" title="">Service Detail</a></li>
+                    <li><a href="{{ route('services') }}" title="">Services</a></li>
+                    <li><a href="{{ route('services-details') }}" title="">Service Detail</a></li>
                 </ul>
             </li>
-            <li><a href="about.html" title="">About Us</a></li>
-            <li><a href="contact.html" title="">Contact</a></li>
+            <li><a href="{{ route('blogs') }}" title="">Blogs</a></li>
+            <li><a href="{{ route('about') }}" title="">About Us</a></li>
+            <li><a href="{{ route('contact') }}" title="">Contact</a></li>
         </ul>
     </div>
 </div>

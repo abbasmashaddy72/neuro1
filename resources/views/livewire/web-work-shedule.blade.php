@@ -12,7 +12,7 @@
                                 <p class="mb-0">Adipisicing elit sed dole there eiusmod tempor incididub
                                     labore dolore magna aliqua denim ads minim veniam quis nostrud.</p>
                             </div>
-                        </div><!-- Sec Title -->
+                        </div>
                         <div class="get-time-box brd-rd10 bg-color6 w-100">
                             <span class="d-flex flex-wrap justify-content-between align-items-center w-100">Monday -
                                 Thursday <i>09:00am - 05:00pm</i></span>
@@ -22,14 +22,13 @@
                                 Sunday <i>09:00am - 05:00pm</i></span>
                         </div>
                         <a class="thm-btn scndry-bg brd-rd5 d-inline-block overflow-hidden position-relative"
-                            href="contact.html" title="">Contact Us Now</a>
+                            href="{{ route('contact') }}" title="">Contact Us Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6">
                 <div
                     class="method-apply-wrap gray-layer opc95 d-flex flex-wrap justify-content-center align-items-center position-relative w-100">
-                    <div class="fixed-bg" style="background-image: url(assets/images/method-apply-bg.jpg);"></div>
                     <div class="method-apply-inner d-inline-block w-100">
                         <div class="sec-title v2 w-100">
                             <div class="sec-title-inner">
@@ -38,7 +37,7 @@
                                 <p class="mb-0">Adipisicing elit sed dole there eiusmod tempor incididub
                                     labore dolore magna aliqua denim ads minim veniam quis nostrud.</p>
                             </div>
-                        </div><!-- Sec Title -->
+                        </div>
                         <div class="methods-wrap d-inline-block w-100">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-lg-6">
@@ -101,5 +100,5 @@
                 </div>
             </div>
         </div>
-    </div><!-- Get In Time & Method Apply Wrap -->
+    </div>
 </div>

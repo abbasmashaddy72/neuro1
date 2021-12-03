@@ -41,5 +41,5 @@
                 </div>
             </div>
         </div>
-    </div><!-- Featured Wrap -->
+    </div>
 </div>

@@ -19,9 +19,9 @@
                         <h4 class="widget-title2 position-relative"><i
                                 class="flaticon-idea thm-clr position-absolute"></i>Services</h4>
                         <ul class="mb-0 list-unstyled w-100">
-                            <li><a href="service-detail.html" title="">Counseling</a></li>
-                            <li><a href="service-detail.html" title="">Relationships</a></li>
-                            <li><a href="service-detail.html" title="">Life coaching</a></li>
+                            <li><a href="{{ route('services-details') }}" title="">Counseling</a></li>
+                            <li><a href="{{ route('services-details') }}" title="">Relationships</a></li>
+                            <li><a href="{{ route('services-details') }}" title="">Life coaching</a></li>
                         </ul>
                         <div class="social-links3 d-flex flex-wrap align-items-center w-100">
                             <a class="rounded-circle twitter-hvr" href="https://twitter.com/" title="Twtiiter"
@@ -61,6 +61,6 @@
                     </div>
                 </div>
             </div>
-        </div><!-- Footer Data -->
+        </div>
     </div>
 </div>

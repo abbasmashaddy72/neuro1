@@ -6,7 +6,7 @@
                 <p class="mb-0 position-relative sub-shap v2 thm-shp d-inline-block">Praising pain was born
                     give you a complete.</p>
             </div>
-        </div><!-- Sec Title -->
+        </div>
         <div class="live-video-wrap position-relative w-100">
             <div class="live-video-inner position-relative w-100">
                 <span class="thm-bg rounded-pill position-absolute z2">With Dr. Jonie Snow</span>
@@ -17,6 +17,6 @@
                         data-fancybox title=""><i class="fas fa-play-circle"></i></a>
                 </div>
             </div>
-        </div><!-- Live Video Session Wrap -->
+        </div>
     </div>
 </div>
