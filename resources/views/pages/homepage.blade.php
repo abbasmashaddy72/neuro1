@@ -1,0 +1,21 @@
+@extends('layouts.home')
+@section('main')
+    <section>
+        @livewire('web-slider')
+    </section>
+    <section>
+        @livewire('web-services')
+    </section>
+    <section>
+        @livewire('web-video')
+    </section>
+    <section>
+        @livewire('web-work-shedule')
+    </section>
+    <section>
+        @livewire('web-review')
+    </section>
+    <section>
+        @livewire('web-blogs')
+    </section>
+@endsection
