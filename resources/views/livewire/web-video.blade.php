@@ -11,7 +11,7 @@
             <div class="live-video-inner position-relative w-100">
                 <span class="thm-bg rounded-pill position-absolute z2">With Dr. Jonie Snow</span>
                 <div class="live-video-img z1 brd-rd10 position-relative overflow-hidden w-100">
-                    <img class="img-fluid w-100" src="web-assets/images/resources/live-video-img.jpg"
+                    <img class="img-fluid w-100" src={{ asset('web-assets/images/resources/live-video-img.jpg') }}
                         alt="Live Video Image">
                     <a class="position-absolute spinner rounded-circle" href="https://player.vimeo.com/video/25969077"
                         data-fancybox title=""><i class="fas fa-play-circle"></i></a>

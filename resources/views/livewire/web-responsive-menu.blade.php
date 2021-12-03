@@ -19,7 +19,7 @@
         <div class="logo">
             <h1 class="mb-0 d-block">
                 <a href="{{ route('home') }}" title="Home">
-                    <img src="web-assets/images/logo.png" alt="Logo">
+                    <img src={{ asset('web-assets/images/logo.png') }} alt="Logo">
                 </a>
             </h1>
         </div>

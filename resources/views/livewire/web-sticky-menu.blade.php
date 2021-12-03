@@ -4,8 +4,8 @@
             <div class="logo">
                 <h1 class="mb-0">
                     <a class="d-block" href="{{ route('home') }}" title="Home">
-                        <img class="img-fluid" src="web-assets/images/logo.png" alt="Logo"
-                            srcset="web-assets/images/retina-logo.png">
+                        <img class="img-fluid" src={{ asset('web-assets/images/logo.png') }} alt="Logo"
+                            srcset={{ asset('web-assets/images/retina-logo.png') }}>
                     </a>
                 </h1>
             </div>

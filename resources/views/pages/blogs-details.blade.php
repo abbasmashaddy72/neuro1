@@ -23,7 +23,8 @@
                                         title="Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a>
                                 </div>
                                 <div class="post-feat-img brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/blog-detail-img.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/blog-detail-img.jpg') }}
                                         alt="Blog Detail Image">
                                 </div>
                                 <ul class="meta3 list-unstyled d-flex flex-wrap align-items-center w-100">
@@ -52,7 +53,7 @@
                                         aliquyam.</p>
                                 </blockquote>
                                 <p class="mb-0"><img class="img-fluid alignright"
-                                        src="web-assets/images/resources/blog-detail-img2.jpg"
+                                        src={{ asset('web-assets/images/resources/blog-detail-img2.jpg') }}
                                         alt="Blog Detail Image 2">Lorem
                                     ipsum dosectetur adipisicing elit, sed ectetur Nulla fringilla purus at leo dignisntum
                                     cursus nisl aliquam. Aliquam et elit eu nunci consectetur Nulla fringillatetur
@@ -68,16 +69,16 @@
                                     <div class="row mrg30">
                                         <div class="col-md-6 col-sm-6 col-lg-6">
                                             <a class="brd-rd10 d-block overflow-hidden"
-                                                href="web-assets/images/resources/blog-detail-gal-img1.jpg"
+                                                href={{ asset('web-assets/images/resources/blog-detail-gal-img1.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/blog-detail-gal-img1.jpg"
+                                                    src={{ asset('web-assets/images/resources/blog-detail-gal-img1.jpg') }}
                                                     alt="Blog Detail Gallery Image 1"></a>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
                                             <a class="brd-rd10 d-block overflow-hidden"
-                                                href="web-assets/images/resources/blog-detail-gal-img2.jpg"
+                                                href={{ asset('web-assets/images/resources/blog-detail-gal-img2.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/blog-detail-gal-img2.jpg"
+                                                    src={{ asset('web-assets/images/resources/blog-detail-gal-img2.jpg') }}
                                                     alt="Blog Detail Gallery Image 2"></a>
                                         </div>
                                     </div>
@@ -87,7 +88,8 @@
                                     congue. Mauris ele yum mentum accumsan leo vel tempor.</p>
                                 <div class="author-box z1 position-relative w-100 d-flex flex-wrap">
                                     <span class="brd-rd10"><img class="img-fluid w-100"
-                                            src="web-assets/images/resources/author-img1.jpg" alt="Author Image 1"></span>
+                                            src={{ asset('web-assets/images/resources/author-img1.jpg') }}
+                                            alt="Author Image 1"></span>
                                     <div class="author-info">
                                         <h4 class="mb-0">About Admin</h4>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur alim Vivamus scele
@@ -109,7 +111,7 @@
                                         <li>
                                             <div class="comment d-flex flex-wrap position-relative w-100">
                                                 <span class="rounded-circle"><img class="img-fluid rounded-circle"
-                                                        src="web-assets/images/resources/comment-img1.jpg"
+                                                        src={{ asset('web-assets/images/resources/comment-img1.jpg') }}
                                                         alt="Comment Image 1"></span>
                                                 <div class="comment-info">
                                                     <h4 class="mb-0 d-inline-block">Jockon Dom</h4>
@@ -160,7 +162,7 @@
                                         <div class="mini-post-box d-flex flex-wrap align-items-center">
                                             <a class="brd-rd5 overflow-hidden" href="blog-detail.html" title=""><img
                                                     class="img-fluid"
-                                                    src="web-assets/images/resources/mini-post-img1-1.jpg"
+                                                    src={{ asset('web-assets/images/resources/mini-post-img1-1.jpg') }}
                                                     alt="Mini Post Image 1"></a>
                                             <div class="mini-post-info">
                                                 <h5 class="mb-0"><a href="blog-detail.html" title="">Stop Using
@@ -171,7 +173,7 @@
                                         <div class="mini-post-box d-flex flex-wrap align-items-center">
                                             <a class="brd-rd5 overflow-hidden" href="blog-detail.html" title=""><img
                                                     class="img-fluid"
-                                                    src="web-assets/images/resources/mini-post-img1-2.jpg"
+                                                    src={{ asset('web-assets/images/resources/mini-post-img1-2.jpg') }}
                                                     alt="Mini Post Image 2"></a>
                                             <div class="mini-post-info">
                                                 <h5 class="mb-0"><a href="blog-detail.html" title="">Am I
@@ -182,7 +184,7 @@
                                         <div class="mini-post-box d-flex flex-wrap align-items-center">
                                             <a class="brd-rd5 overflow-hidden" href="blog-detail.html" title=""><img
                                                     class="img-fluid"
-                                                    src="web-assets/images/resources/mini-post-img1-3.jpg"
+                                                    src={{ asset('web-assets/images/resources/mini-post-img1-3.jpg') }}
                                                     alt="Mini Post Image 3"></a>
                                             <div class="mini-post-info">
                                                 <h5 class="mb-0"><a href="blog-detail.html" title="">Steps to
@@ -228,29 +230,29 @@
                                 <div class="widget-box v3 brd-rd10 bg-color6 instagram_widget overflow-hidden w-100">
                                     <h4 class="position-relative tit-shp thm-shp widget-title3">Instagram Stories</h4>
                                     <ul class="insta-gal-list list-unstyled d-flex flex-wrap align-items-center">
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-1.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-1.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-1.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-1.jpg') }}
                                                     alt="Instagram Gallery Image 1"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-2.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-2.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-2.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-2.jpg') }}
                                                     alt="Instagram Gallery Image 2"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-3.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-3.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-3.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-3.jpg') }}
                                                     alt="Instagram Gallery Image 3"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-4.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-4.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-4.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-4.jpg') }}
                                                     alt="Instagram Gallery Image 4"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-5.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-5.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-5.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-5.jpg') }}
                                                     alt="Instagram Gallery Image 5"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-6.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-6.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-6.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-6.jpg') }}
                                                     alt="Instagram Gallery Image 6"></a></li>
                                     </ul>
                                     <div

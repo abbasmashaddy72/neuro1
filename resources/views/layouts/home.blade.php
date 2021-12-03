@@ -7,19 +7,19 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href="web-assets/images/favicon.png" sizes="35x35" type="image/png">
+    <link rel="icon" href={{ asset('web-assets/images/favicon.png') }} sizes="35x35" type="image.png') }}>
 
 
-    <link rel="stylesheet" href="web-assets/css/all.min.css">
-    <link rel="stylesheet" href="web-assets/css/flaticon.css">
-    <link rel="stylesheet" href="web-assets/css/animate.min.css">
-    <link rel="stylesheet" href="web-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="web-assets/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="web-assets/css/perfect-scrollbar.css">
-    <link rel="stylesheet" href="web-assets/css/slick.css">
-    <link rel="stylesheet" href="web-assets/css/style.css">
-    <link rel="stylesheet" href="web-assets/css/responsive.css">
-    <link rel="stylesheet" href="web-assets/css/color.css">
+    <link rel=" stylesheet" href={{ asset('web-assets/css/all.min.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/flaticon.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/animate.min.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/bootstrap.min.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/jquery.fancybox.min.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/perfect-scrollbar.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/slick.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/style.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/responsive.css') }}>
+    <link rel="stylesheet" href={{ asset('web-assets/css/color.css') }}>
 
 
     @livewireStyles()
@@ -40,15 +40,15 @@
         </footer>
     </main>
     {{-- Script --}}
-    <script src="web-assets/js/jquery.min.js"></script>
-    <script src="web-assets/js/popper.min.js"></script>
-    <script src="web-assets/js/bootstrap.min.js"></script>
-    <script src="web-assets/js/wow.min.js"></script>
-    <script src="web-assets/js/counterup.min.js"></script>
-    <script src="web-assets/js/jquery.fancybox.min.js"></script>
-    <script src="web-assets/js/perfect-scrollbar.min.js"></script>
-    <script src="web-assets/js/slick.min.js"></script>
-    <script src="web-assets/js/custom-scripts.js"></script>
+    <script src={{ asset('web-assets/js/jquery.min.js') }}></script>
+    <script src={{ asset('web-assets/js/popper.min.js') }}></script>
+    <script src={{ asset('web-assets/js/bootstrap.min.js') }}></script>
+    <script src={{ asset('web-assets/js/wow.min.js') }}></script>
+    <script src={{ asset('web-assets/js/counterup.min.js') }}></script>
+    <script src={{ asset('web-assets/js/jquery.fancybox.min.js') }}></script>
+    <script src={{ asset('web-assets/js/perfect-scrollbar.min.js') }}></script>
+    <script src={{ asset('web-assets/js/slick.min.js') }}></script>
+    <script src={{ asset('web-assets/js/custom-scripts.js') }}></script>
     @livewireScripts
 </body>
 

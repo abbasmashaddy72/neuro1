@@ -7,16 +7,20 @@
                     class="testi-wrap d-flex flex-wrap justify-content-center align-items-center position-relative w-100">
                     <div class="testi-nav-caro">
                         <div class="testi-nav-item rounded-circle"><img class="img-fluid rounded-circle"
-                                src="web-assets/images/resources/testi-nav-img1-1.jpg" alt="Testimonial Nav Image 1">
+                                src={{ asset('web-assets/images/resources/testi-nav-img1-1.jpg') }}
+                                alt="Testimonial Nav Image 1">
                         </div>
                         <div class="testi-nav-item rounded-circle"><img class="img-fluid rounded-circle"
-                                src="web-assets/images/resources/testi-nav-img1-2.jpg" alt="Testimonial Nav Image 2">
+                                src={{ asset('web-assets/images/resources/testi-nav-img1-2.jpg') }}
+                                alt="Testimonial Nav Image 2">
                         </div>
                         <div class="testi-nav-item rounded-circle"><img class="img-fluid rounded-circle"
-                                src="web-assets/images/resources/testi-nav-img1-3.jpg" alt="Testimonial Nav Image 3">
+                                src={{ asset('web-assets/images/resources/testi-nav-img1-3.jpg') }}
+                                alt="Testimonial Nav Image 3">
                         </div>
                         <div class="testi-nav-item rounded-circle"><img class="img-fluid rounded-circle"
-                                src="web-assets/images/resources/testi-nav-img1-4.jpg" alt="Testimonial Nav Image 4">
+                                src={{ asset('web-assets/images/resources/testi-nav-img1-4.jpg') }}
+                                alt="Testimonial Nav Image 4">
                         </div>
                     </div>
                     <div class="testi-inner d-inline-block w-100">
@@ -25,7 +29,7 @@
                                 <div class="testi-item-box position-relative brd-rd10 w-100">
                                     <div class="testi-img rounded-circle position-absolute"><img
                                             class="img-fluid rounded-circle"
-                                            src="web-assets/images/resources/testi-img1-1.jpg"
+                                            src={{ asset('web-assets/images/resources/testi-img1-1.jpg') }}
                                             alt="Testimonial Image 1"><i
                                             class="flaticon-left-quotes-sign rounded-circle text-center scndry-clr"></i>
                                     </div>
@@ -48,7 +52,7 @@
                                 <div class="testi-item-box position-relative brd-rd10 w-100">
                                     <div class="testi-img rounded-circle position-absolute"><img
                                             class="img-fluid rounded-circle"
-                                            src="web-assets/images/resources/testi-img1-2.jpg"
+                                            src={{ asset('web-assets/images/resources/testi-img1-2.jpg') }}
                                             alt="Testimonial Image 2"><i
                                             class="flaticon-left-quotes-sign rounded-circle text-center scndry-clr"></i>
                                     </div>
@@ -71,7 +75,7 @@
                                 <div class="testi-item-box position-relative brd-rd10 w-100">
                                     <div class="testi-img rounded-circle position-absolute"><img
                                             class="img-fluid rounded-circle"
-                                            src="web-assets/images/resources/testi-img1-3.jpg"
+                                            src={{ asset('web-assets/images/resources/testi-img1-3.jpg') }}
                                             alt="Testimonial Image 3"><i
                                             class="flaticon-left-quotes-sign rounded-circle text-center scndry-clr"></i>
                                     </div>
@@ -94,7 +98,7 @@
                                 <div class="testi-item-box position-relative brd-rd10 w-100">
                                     <div class="testi-img rounded-circle position-absolute"><img
                                             class="img-fluid rounded-circle"
-                                            src="web-assets/images/resources/testi-img1-4.jpg"
+                                            src={{ asset('web-assets/images/resources/testi-img1-4.jpg') }}
                                             alt="Testimonial Image 4"><i
                                             class="flaticon-left-quotes-sign rounded-circle text-center scndry-clr"></i>
                                     </div>

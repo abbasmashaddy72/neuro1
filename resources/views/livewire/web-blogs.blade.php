@@ -21,7 +21,8 @@
                             <div class="col-md-6 col-sm-6 col-lg-6">
                                 <div class="news-box3 position-relative w-100">
                                     <div class="news-img3 brd-rd5 position-relative overflow-hidden w-100">
-                                        <img class="img-fluid w-100" src="web-assets/images/resources/news-img3-2.jpg"
+                                        <img class="img-fluid w-100"
+                                            src={{ asset('web-assets/images/resources/news-img3-2.jpg') }}
                                             alt="News Image 2">
                                         <a class="position-absolute" href="{{ route('blogs-details') }}" title=""><i
                                                 class="flaticon-plus"></i></a>
@@ -42,7 +43,8 @@
                             <div class="col-md-6 col-sm-6 col-lg-6">
                                 <div class="news-box3 position-relative w-100">
                                     <div class="news-img3 brd-rd5 position-relative overflow-hidden w-100">
-                                        <img class="img-fluid w-100" src="web-assets/images/resources/news-img3-3.jpg"
+                                        <img class="img-fluid w-100"
+                                            src={{ asset('web-assets/images/resources/news-img3-3.jpg') }}
                                             alt="News Image 3">
                                         <a class="position-absolute" href="{{ route('blogs-details') }}" title=""><i
                                                 class="flaticon-plus"></i></a>

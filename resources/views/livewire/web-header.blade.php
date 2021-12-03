@@ -23,8 +23,8 @@
             class="logo-contact-inner d-flex flex-wrap align-items-center justify-content-between position-relative w-100">
             <div class="logo z1 position-relative">
                 <h1 class="mb-0"><a class="d-block" href="{{ route('home') }}" title="Home"><img
-                            class="img-fluid" src="assets/images/logo.png" alt="Logo"
-                            srcset="web-assets/images/retina-logo.png"></a></h1>
+                            class="img-fluid" src={{ asset('web-assets/images/logo.png') }} alt="Logo"
+                            srcset={{ asset('web-assets/images/retina-logo.png') }}></a></h1>
             </div>
             <div class="header-contact-cart d-flex flex-wrap align-items-center">
                 <ul class="header-contact-info d-inline-flex flex-wrap align-items-center mb-0 list-unstyled">

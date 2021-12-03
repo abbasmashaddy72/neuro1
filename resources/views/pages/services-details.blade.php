@@ -8,7 +8,8 @@
                         <div class="col-md-12 col-sm-12 col-lg-8">
                             <div class="post-detail w-100">
                                 <div class="post-feat-img serv-detail-img brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/service-detail-img.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/service-detail-img.jpg') }}
                                         alt="Service Detail Image">
                                     <span class="brd-rd10 thm-bg serv-post-date position-absolute">Jan 20, 2021</span>
                                     <span class="serv-post-authr position-absolute"><i class="fas fa-user thm-clr"></i><a
@@ -64,7 +65,8 @@
                                         title="">circumstances</a> occur in which toil and pain can procure him some great
                                     pleasure.</p>
                                 <figure class="alignright position-relative overflow-hidden brd-rd10"><img
-                                        class="img-fluid w-100" src="web-assets/images/resources/service-detail-img2.jpg"
+                                        class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/service-detail-img2.jpg') }}
                                         alt="Service Detail Image 2"><a class="position-absolute"
                                         href="https://player.vimeo.com/video/25969077" data-fancybox title=""><i
                                             class="fas fa-play-circle"></i></a></figure>
@@ -114,29 +116,29 @@
                                 <div class="widget-box v3 brd-rd10 bg-color6 instagram_widget overflow-hidden w-100">
                                     <h4 class="position-relative tit-shp thm-shp widget-title3">Instagram Stories</h4>
                                     <ul class="insta-gal-list list-unstyled d-flex flex-wrap align-items-center">
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-1.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-1.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-1.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-1.jpg') }}
                                                     alt="Instagram Gallery Image 1"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-2.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-2.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-2.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-2.jpg') }}
                                                     alt="Instagram Gallery Image 2"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-3.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-3.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-3.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-3.jpg') }}
                                                     alt="Instagram Gallery Image 3"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-4.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-4.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-4.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-4.jpg') }}
                                                     alt="Instagram Gallery Image 4"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-5.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-5.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-5.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-5.jpg') }}
                                                     alt="Instagram Gallery Image 5"></a></li>
-                                        <li><a href="web-assets/images/resources/insta-gal-img1-6.jpg"
+                                        <li><a href={{ asset('web-assets/images/resources/insta-gal-img1-6.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/insta-gal-img1-6.jpg"
+                                                    src={{ asset('web-assets/images/resources/insta-gal-img1-6.jpg') }}
                                                     alt="Instagram Gallery Image 6"></a></li>
                                     </ul>
                                     <div

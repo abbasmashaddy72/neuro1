@@ -8,7 +8,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-1.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-1.jpg') }}
                                         alt="Services Image 1">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>
@@ -22,7 +23,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-2.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-2.jpg') }}
                                         alt="Services Image 2">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>
@@ -36,7 +38,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-3.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-3.jpg') }}
                                         alt="Services Image 3">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>
@@ -50,7 +53,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-4.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-4.jpg') }}
                                         alt="Services Image 4">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>
@@ -65,7 +69,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-5.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-5.jpg') }}
                                         alt="Services Image 5">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>
@@ -79,7 +84,8 @@
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div class="serv-box2 position-relative w-100">
                                 <div class="serv-img2 brd-rd10 position-relative overflow-hidden w-100">
-                                    <img class="img-fluid w-100" src="web-assets/images/resources/serv-img1-6.jpg"
+                                    <img class="img-fluid w-100"
+                                        src={{ asset('web-assets/images/resources/serv-img1-6.jpg') }}
                                         alt="Services Image 6">
                                     <a class="position-absolute" href="{{ route('services-details') }}" title=""><i
                                             class="flaticon-plus"></i></a>

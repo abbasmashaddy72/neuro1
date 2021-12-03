@@ -12,17 +12,17 @@
                                 <div class="row align-items-end mrg20">
                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                         <div class="about-gal-img brd-rd10 overflow-hidden position-relative w-100">
-                                            <a href="web-assets/images/resources/about-gal-img1-1.jpg"
+                                            <a href={{ asset('web-assets/images/resources/about-gal-img1-1.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/about-gal-img1-1.jpg"
+                                                    src={{ asset('web-assets/images/resources/about-gal-img1-1.jpg') }}
                                                     alt="About Gallery Image 1"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                         <div class="about-gal-img brd-rd10 overflow-hidden position-relative w-100">
-                                            <a href="web-assets/images/resources/about-gal-img1-2.jpg"
+                                            <a href={{ asset('web-assets/images/resources/about-gal-img1-2.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/about-gal-img1-2.jpg"
+                                                    src={{ asset('web-assets/images/resources/about-gal-img1-2.jpg') }}
                                                     alt="About Gallery Image 2"></a>
                                         </div>
                                     </div>
@@ -31,9 +31,9 @@
                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                         <div
                                             class="about-gal-img brd-rd10 brd-rd10 overflow-hidden position-relative w-100">
-                                            <a href="web-assets/images/resources/about-gal-img1-3.jpg"
+                                            <a href={{ asset('web-assets/images/resources/about-gal-img1-3.jpg') }}
                                                 data-fancybox="gallery" title=""><img class="img-fluid w-100"
-                                                    src="web-assets/images/resources/about-gal-img1-3.jpg"
+                                                    src={{ asset('web-assets/images/resources/about-gal-img1-3.jpg') }}
                                                     alt="About Gallery Image 3"></a>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@
                                                 href="https://player.vimeo.com/video/25969077" data-fancybox title=""><i
                                                     class="fas fa-play-circle"></i></a>
                                             <img class="img-fluid w-100"
-                                                src="web-assets/images/resources/about-gal-img1-4.jpg"
+                                                src={{ asset('web-assets/images/resources/about-gal-img1-4.jpg') }}
                                                 alt="About Gallery Image 4">
                                         </div>
                                     </div>
@@ -77,7 +77,8 @@
                 <div class="row align-items-center mrg">
                     <div class="col-md-12 col-sm-12 col-lg-6">
                         <div class="find-thera-img position-relative"><img class="img-fluid w-100"
-                                src="web-assets/images/resources/find-thera-img.jpg" alt="Find Therapist Image"></div>
+                                src={{ asset('web-assets/images/resources/find-thera-img.jpg') }}
+                                alt="Find Therapist Image"></div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-lg-6">
                         <div class="find-thera-cap position-relative">
@@ -109,8 +110,8 @@
                     <div class="row mrg30 align-items-end">
                         <div class="col-md-8 col-sm-12 col-lg-8">
                             <div class="quote-box-wrap position-relative w-100">
-                                <img class="img-fluid brd-rd5 overlap65" src="web-assets/images/resources/quote-img.jpg"
-                                    alt="Quote Image">
+                                <img class="img-fluid brd-rd5 overlap65"
+                                    src={{ asset('web-assets/images/resources/quote-img.jpg') }} alt="Quote Image">
                                 <div class="quote-box position-absolute w-100">
                                     <div class="quote-box-inner thm-bg w-100">
                                         <i class="flaticon-quotation scndry-bg brd-rd5 position-absolute"></i>
