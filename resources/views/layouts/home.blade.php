@@ -7,8 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href={{ asset('web-assets/images/favicon.png') }} sizes="35x35" type="image.png') }}>
-
+    <link rel="icon" href={{ asset('web-assets/images/favicon.png') }} sizes="35x35" type="image.png">
 
     <link rel=" stylesheet" href={{ asset('web-assets/css/all.min.css') }}>
     <link rel="stylesheet" href={{ asset('web-assets/css/flaticon.css') }}>
@@ -20,7 +19,6 @@
     <link rel="stylesheet" href={{ asset('web-assets/css/style.css') }}>
     <link rel="stylesheet" href={{ asset('web-assets/css/responsive.css') }}>
     <link rel="stylesheet" href={{ asset('web-assets/css/color.css') }}>
-
 
     @livewireStyles()
 </head>

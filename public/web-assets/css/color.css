@@ -1,6 +1,6 @@
 :root {
-  --theme-color: #0fb8cd;
-  --secondary-color: #e3ca94;
+    --theme-color: #0770aa;
+    --secondary-color: #e3ca94;
 }
 
 /*===== Primary Color =====*/
@@ -12,7 +12,7 @@
 .search-btn:focus,
 .header-cart > span.cart-btn:hover,
 .header-cart > span.cart-btn:focus,
-.thm-btn.scndry-bg:before, 
+.thm-btn.scndry-bg:before,
 .thm-btn.scndry-bg:after,
 .thm-btn.bg-black:before,
 .thm-btn.bg-black:after,
@@ -31,7 +31,7 @@
 .prod-img > a.scndry-bg:hover,
 .prod-img > a.scndry-bg:focus,
 .ftr-gal-list li a:before,
-.scndry-bg .topbar-right > a.search-btn:hover, 
+.scndry-bg .topbar-right > a.search-btn:hover,
 .scndry-bg .topbar-right > a.search-btn:focus,
 .logo.v2:after,
 .feat-cap2 > span:not(.feat-cap-time):before,
@@ -50,18 +50,27 @@ header.style3 nav > div > ul > li > a:after,
 .scndry-bg .find-thera-cap > a:focus,
 .scndry-bg .thm-btn.bg-color5:before,
 .scndry-bg .thm-btn.bg-color5:after,
-.pagination li.page-item.prev a.page-link:hover, 
+.pagination li.page-item.prev a.page-link:hover,
 .pagination li.page-item.next a.page-link:hover,
-.pagination li.page-item.prev a.page-link:focus, 
+.pagination li.page-item.prev a.page-link:focus,
 .pagination li.page-item.next a.page-link:focus,
 .gallery-video-box > a.scndry-bg:hover,
 .gallery-video-box > a.scndry-bg:focus,
 .appointment-calendar .fc-header-toolbar,
 .scndry-layer .social-links3.v2 > a:hover,
 .scndry-layer .social-links3.v2 > a:focus,
-.widget-box.v3 ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list) > li:hover > a:before,
-.widget-box.v3 ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list) > li > a:hover:before,
-.widget-box.v3 ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list) > li > a:focus:before,
+.widget-box.v3
+    ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list)
+    > li:hover
+    > a:before,
+.widget-box.v3
+    ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list)
+    > li
+    > a:hover:before,
+.widget-box.v3
+    ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list)
+    > li
+    > a:focus:before,
 .insta-gal-list > li a:before,
 .comment-reply-wrap > h3:after,
 .slc-box:before,
@@ -85,9 +94,8 @@ header.style3 nav > div > ul > li > a:after,
 .slick-slider.feat-caro ul.slick-dots > li.slick-active button,
 .proced-box.scndry-bg:hover,
 [type="checkbox"]:not(:checked) + label:after,
-[type="checkbox"]:checked + label:after
-{
-	background-color: var(--theme-color);
+[type="checkbox"]:checked + label:after {
+    background-color: var(--theme-color);
 }
 
 /*===== Text Color =====*/
@@ -104,7 +112,7 @@ nav ul li > a:focus,
 .serv-box:hover > i,
 .simple-link.scndry-clr:hover,
 .simple-link.scndry-clr:focus,
-.serv-img2 > a:hover, 
+.serv-img2 > a:hover,
 .serv-img2 > a:focus,
 .team-info > h3 a:hover,
 .team-info > h3 a:focus,
@@ -147,7 +155,7 @@ form.newsletter-form button:focus,
 .bottom-bar.v3 p a:focus,
 .about-video-box > a.scndry-clr:hover,
 .about-video-box > a.scndry-clr:focus,
-.scndry-layer .contact-info-box > span a:hover, 
+.scndry-layer .contact-info-box > span a:hover,
 .scndry-layer .contact-info-box > span a:focus,
 .search-form button:hover,
 .search-form button:focus,
@@ -196,26 +204,23 @@ figure > a:focus,
 .minicart-info > h6 a:hover,
 .minicart-info > h6 a:focus,
 .minicart-info a.remove-cart:hover,
-.minicart-info a.remove-cart:focus
-{
-	color: var(--theme-color);
+.minicart-info a.remove-cart:focus {
+    color: var(--theme-color);
 }
 
 /*===== Border Color =====*/
 .thm-brd-clr,
-.pagination li.page-item.prev a.page-link:hover, 
-.pagination li.page-item.next a.page-link:hover, 
-.pagination li.page-item.prev a.page-link:focus, 
-.pagination li.page-item.next a.page-link:focus
-{
-	border-color: var(--theme-color);
+.pagination li.page-item.prev a.page-link:hover,
+.pagination li.page-item.next a.page-link:hover,
+.pagination li.page-item.prev a.page-link:focus,
+.pagination li.page-item.next a.page-link:focus {
+    border-color: var(--theme-color);
 }
 
 .proced-box:before,
 .error-inner > i.thm-bg:after,
-.proced-box.scndry-bg:hover:before
-{
-	border-top-color: var(--theme-color);
+.proced-box.scndry-bg:hover:before {
+    border-top-color: var(--theme-color);
 }
 
 .about-inner > span,
@@ -224,21 +229,17 @@ figure > a:focus,
 .simple-link.scndry-clr:focus,
 .about-desc > span.thm-clr,
 .meta2 > li a:hover,
-.meta2 > li a:focus
-{
-	border-bottom-color: var(--theme-color);
+.meta2 > li a:focus {
+    border-bottom-color: var(--theme-color);
 }
 
-
-{
-	border-left-color: var(--theme-color);
+ {
+    border-left-color: var(--theme-color);
 }
 
-
-{
-	border-right-color: var(--theme-color);
+ {
+    border-right-color: var(--theme-color);
 }
-
 
 /*===== Secondary Color =====*/
 
@@ -250,7 +251,7 @@ figure > a:focus,
 header.style1 nav ul li:hover > a,
 header.style1 nav ul li.active > a,
 header.style1 nav ul li > a:focus,
-.thm-btn.thm-bg:before, 
+.thm-btn.thm-bg:before,
 .thm-btn.thm-bg:after,
 .slick-slider.feat-caro > button.slick-arrow,
 .serv-box-inner:before,
@@ -270,10 +271,10 @@ header.style1 nav ul li > a:focus,
 .course-info-bottom > span:not(:first-child):before,
 .special-box.thm-bg:after,
 .serv-box3:before,
-.pagination li.page-item.active a.page-link, 
+.pagination li.page-item.active a.page-link,
 .pagination li.page-item a.page-link:hover,
 .pagination li.page-item a.page-link:focus,
-.pagination li.page-item.prev a.page-link, 
+.pagination li.page-item.prev a.page-link,
 .pagination li.page-item.next a.page-link,
 .gallery-box:before,
 .gallery-video-box > a.thm-bg:hover,
@@ -285,9 +286,8 @@ td.fc-today,
 .thm-layer .social-links3.v2 > a:hover,
 .thm-layer .social-links3.v2 > a:focus,
 .team-detail-info:before,
-.proced-box.thm-bg:hover
-{
-	background-color: var(--secondary-color);
+.proced-box.thm-bg:hover {
+    background-color: var(--secondary-color);
 }
 
 /*===== Text Color =====*/
@@ -301,14 +301,14 @@ td.fc-today,
 .about-play-btn.thm-clr:hover,
 .about-play-btn.thm-clr:focus,
 .serv-box3:hover .serv-info3 > i,
-.thm-bg .simple-link:hover, 
+.thm-bg .simple-link:hover,
 .thm-bg .simple-link:focus,
 ol.breadcrumb li.breadcrumb-item a:hover,
 ol.breadcrumb li.breadcrumb-item a:focus,
 ol.breadcrumb li.breadcrumb-item.active,
 .about-video-box > a.thm-clr:hover,
 .about-video-box > a.thm-clr:focus,
-.thm-layer .contact-info-box > span a:hover, 
+.thm-layer .contact-info-box > span a:hover,
 .thm-layer .contact-info-box > span a:focus,
 .post-detail ul li:before,
 .team-detail-wrap > ul li:before,
@@ -325,50 +325,44 @@ ol.breadcrumb li.breadcrumb-item.active,
 .meta > li.thm-clr a:hover,
 .meta > li.thm-clr a:focus,
 .meta2 > li.thm-clr a:hover,
-.meta2 > li.thm-clr a:focus
-{
-	color: var(--secondary-color);
+.meta2 > li.thm-clr a:focus {
+    color: var(--secondary-color);
 }
 
 /*===== Border Color =====*/
 .scndry-brd-clr,
 .testi-nav-item > img,
-.pagination li.page-item.active a.page-link, 
+.pagination li.page-item.active a.page-link,
 .pagination li.page-item a.page-link:hover,
 .pagination li.page-item a.page-link:focus,
-.pagination li.page-item.prev a.page-link, 
+.pagination li.page-item.prev a.page-link,
 .pagination li.page-item.next a.page-link,
-.preloader-inner:before
-{
-	border-color: var(--secondary-color);
+.preloader-inner:before {
+    border-color: var(--secondary-color);
 }
 
 .meta2 > li:not(.thm-clr) span:before,
 .error-inner > i.scndry-bg:after,
-.proced-box.thm-bg:hover:before
-{
-	border-top-color: var(--secondary-color);
+.proced-box.thm-bg:hover:before {
+    border-top-color: var(--secondary-color);
 }
 
 .about-inner > span.scndry-clr,
 .simple-link.thm-clr:hover,
 .simple-link.thm-clr:focus,
 .simple-link.scndry-clr,
-.thm-bg .simple-link:hover, 
+.thm-bg .simple-link:hover,
 .thm-bg .simple-link:focus,
 .about-desc > span.scndry-clr,
 .meta2 > li.thm-clr a:hover,
-.meta2 > li.thm-clr a:focus
-{
-	border-bottom-color: var(--secondary-color);
+.meta2 > li.thm-clr a:focus {
+    border-bottom-color: var(--secondary-color);
 }
 
-
-{
-	border-left-color: var(--secondary-color);
+ {
+    border-left-color: var(--secondary-color);
 }
 
-
-{
-	border-right-color: var(--secondary-color);
+ {
+    border-right-color: var(--secondary-color);
 }
